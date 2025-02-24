@@ -19,18 +19,19 @@ Currently, there is a surprising lack of transparency when it comes to selecting
 2) Can we develop a basic hospital recommendation map to help steer consumers to higher-quality facilities in a given area?
 
 ## Data Sources
-Hospital General Information and Star Ratings:
+Hospital General Information and Star Ratings:<br>
 https://data.cms.gov/provider-data/dataset/xubh-q36u
 
-Medicare Spending Per Beneficiary:
+Medicare Spending Per Beneficiary:<br>
 https://data.cms.gov/provider-data/dataset/rrqw-56er
 
-Complication and Mortality Rates by Hospital:
+Complication and Mortality Rates by Hospital:<br>
 https://data.cms.gov/provider-data/dataset/ynj2-r877
 
-Readmission Rates by Hospital:https://data.cms.gov/provider-data/dataset/9n3s-kdb3
+Readmission Rates by Hospital:<br>
+https://data.cms.gov/provider-data/dataset/9n3s-kdb3
 
-Payment and Value of Care:
+Payment and Value of Care:<br>
 https://data.cms.gov/provider-data/dataset/c7us-v4mf
 
 
@@ -39,7 +40,7 @@ https://data.cms.gov/provider-data/dataset/c7us-v4mf
 * **Tableau**: For visualizations and interactive dashboards, the hospital recommendation map is located in this file.
 
 ## Challenges and Limitations
-* The datasets contain average cost data for only 4 types of medical conditions: Heart Attack, Heart Failure, Hip/Knee Replacement, and Pneumonia.  It would have been ideal to have more conditions to observe correlations for, preferably those with longer episodes of care (like Hip/Lnee Replacement).
+* The datasets contain average cost data for only 4 types of medical conditions: Heart Attack, Heart Failure, Hip/Knee Replacement, and Pneumonia.  It would have been ideal to have more conditions to observe correlations for, preferably those with longer episodes of care (like Hip/Knee Replacement).
 * Many hospitals in the dataset are either too small to report on cost/quality data, or just do not participate in the Medicare quality rating program entirely.  These null records were omitted from the map.
 * In order to plot points on the map, the hospital addresses required geocoding within Python to obtain coordinate values.  Some hospitals could not be located with the geocoding method (roughly 1,000 out of 18,000 total records).  These specific facilities may appear within the hospital table in Tableau, but not on the map itself.
 
