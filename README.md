@@ -14,10 +14,12 @@ I currently work in a health insurance brokerage space, where I help consult a v
 Currently, there is a surprising lack of transparency when it comes to selecting a healthcare provider for the average consumer, in terms of the costs they should expect to incur for a particular service, and the overall quality of care they would be receiving from said providers.  These recommendation tools allow customers to make more informed decisions when choosing doctors and facilities for care, and I was very interested in attemping to build one for myself.
 
 
-## Data Question
-Does spending more for a particular medical procedure guarantee a higher quality of care from that provider?
+## Data Questions
+1) Does spending more for a particular medical procedure guarantee a higher quality of care from that provider?
+2) Can we develop a basic hospital recommendation map to help steer consumers to higher-quality facilities in a given area?
 
 ## Technologies Used
-Does spending more for a particular medical procedure guarantee a higher quality of care from that provider?
+* Python: For intial exploration, cleaning, and merging of the datasets.  Also used for geocoding the hospital address data (ie: assigning longitude and latitude values to each facility), made use of the geopy package for this process.
+* Tableau: For visualizations and interactive dashboards, the hospital recommendation map is located in this file.
 
 
