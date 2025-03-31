@@ -4,6 +4,7 @@
 * [Motivation](#Motivation)   
 * [Data Question](#Data-Question)
 * [Technologies Used](#Technologies-Used)
+* [Analysis/Tableau Dashboard](#Analysis/Tableau-Dashboard)
 * [Challenges and Limitations](#Challenges-and-Limitations)
 * [Conclusions](#Conclusions)
 * [Data Sources](#Data-Sources)
@@ -22,6 +23,12 @@ Currently, there is a surprising lack of transparency when it comes to selecting
 ## Technologies Used
 * **Python**: For intial exploration, cleaning, and merging of the datasets.  Also used for geocoding the hospital address data (ie: assigning longitude and latitude values to each facility), made use of the geopy package for this process.
 * **Tableau**: For visualizations and interactive dashboards, the hospital recommendation map is located in this file.
+
+
+## Analysis/Tableau Dashboard
+
+* **Link to Dashboard**: https://public.tableau.com/app/profile/donald.napier/viz/provider_cost_vs_quality/Map1_Dashboard
+
 
 ## Challenges and Limitations
 * The datasets contain average cost data for only 4 types of medical conditions: Heart Attack, Heart Failure, Hip/Knee Replacement, and Pneumonia.  It would have been ideal to have more conditions to observe correlations for, preferably those with longer episodes of care (like Hip/Knee Replacement).
