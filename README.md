@@ -27,7 +27,7 @@ Currently, there is a surprising lack of transparency when it comes to selecting
 
 ## Analysis/Tableau Dashboard
 
-* **Link to Dashboard**: https://public.tableau.com/app/profile/donald.napier/viz/provider_cost_vs_quality/Map1_Dashboard
+**Link to Dashboard**: https://public.tableau.com/app/profile/donald.napier/viz/provider_cost_vs_quality/Map1_Dashboard
 
 
 ## Challenges and Limitations
